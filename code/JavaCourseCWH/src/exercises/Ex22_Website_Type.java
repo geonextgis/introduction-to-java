@@ -12,6 +12,7 @@ public class Ex22_Website_Type {
 
         System.out.print("Enter the URL: ");
         String url = sc.next();
+        sc.close();
 
         if (url.endsWith(".com")) {
             System.out.println("It's a Commercial Website");

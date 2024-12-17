@@ -17,6 +17,7 @@ public class Ex02_Sum_of_Three_Numbers {
 
         System.out.println("Enter the number 3:");
         float num3 = sc.nextFloat();
+        sc.close();
 
         float sum = num1 + num2 + num3;
         System.out.print("Sum of the three numbers:");

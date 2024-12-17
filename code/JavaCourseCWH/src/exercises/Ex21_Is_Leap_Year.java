@@ -13,6 +13,7 @@ public class Ex21_Is_Leap_Year {
 
         System.out.print("Enter a year: ");
         int year = sc.nextInt();
+        sc.close();
 
         // divisible by 100
         boolean cond1 = ((year % 100) == 0);

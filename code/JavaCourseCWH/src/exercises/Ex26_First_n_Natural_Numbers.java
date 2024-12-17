@@ -11,6 +11,7 @@ public class Ex26_First_n_Natural_Numbers {
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
 
         for (int i=n; i>0; i--) {
             System.out.println(i);

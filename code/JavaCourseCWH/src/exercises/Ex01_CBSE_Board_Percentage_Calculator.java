@@ -28,6 +28,7 @@ public class Ex01_CBSE_Board_Percentage_Calculator {
 
         System.out.println("Enter the score in Geography:");
         float score_in_geography = sc.nextFloat();
+        sc.close();
 
         float sum_of_scores = score_in_mathematics + score_in_physics + score_in_chemistry + score_in_history + score_in_geography;
 

@@ -14,6 +14,7 @@ public class Ex04_Greetings {
 
         System.out.println("Enter your name:");
         String name = sc.nextLine();
+        sc.close();
 
         System.out.print("Hello " + name + ", have a good day.");
     }

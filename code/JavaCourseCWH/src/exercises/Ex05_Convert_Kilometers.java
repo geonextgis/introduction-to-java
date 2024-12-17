@@ -13,6 +13,7 @@ public class Ex05_Convert_Kilometers {
         
         System.out.println("Enter the distance in kilometers:");
         float distance_km = sc.nextFloat();
+        sc.close();
         
         float distance_miles = distance_km / 1.609f;
 

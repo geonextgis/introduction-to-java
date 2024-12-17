@@ -13,6 +13,7 @@ public class Ex20_Day_of_Week {
 
         System.out.print("Enter the day of the week in number: ");
         int day_of_week = sc.nextInt();
+        sc.close();
 
         switch (day_of_week) {
             case 1:

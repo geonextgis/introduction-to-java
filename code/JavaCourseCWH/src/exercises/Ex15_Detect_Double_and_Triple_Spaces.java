@@ -11,6 +11,7 @@ public class Ex15_Detect_Double_and_Triple_Spaces {
         System.out.println("Enter your string: ");
         Scanner sc = new Scanner(System.in);
         String user_string = sc.nextLine();
+        sc.close();
 
         System.out.println("The string contains double space at index: " + user_string.indexOf("  "));
         System.out.println("The string contains triple space at index: " + user_string.indexOf("   "));

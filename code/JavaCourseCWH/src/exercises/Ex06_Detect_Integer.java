@@ -11,5 +11,7 @@ public class Ex06_Detect_Integer {
 
         System.out.println("Enter your number:");
         System.out.println(sc.hasNextInt());
+
+        sc.close();
     }
 }

@@ -12,6 +12,7 @@ public class Ex29_Multiplication_Table {
 
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        sc.close();
 
         for (int i=1; i<11; i++) {
             System.out.println(n + " x " + i + " = " + (n*i));

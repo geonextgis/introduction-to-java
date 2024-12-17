@@ -14,6 +14,7 @@ public class Ex24_First_n_Numbers {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
         int a = 1;
+        sc.close();
 
         do {
             System.out.println(a);

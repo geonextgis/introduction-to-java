@@ -11,6 +11,7 @@ public class Ex25_First_n_Odd_Numbers {
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
 
         // 2n = Even Numbers = 0, 2, 4, 6, 8
         // 2n + 1 = Odd Numbers = 1, 3, 5, 7, 9

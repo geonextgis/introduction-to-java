@@ -15,6 +15,7 @@ public class Ex23_Rock_Paper_Scissors {
 
         System.out.println("Select your choice:\n\t'0' for 'Rock'\n\t'1' for 'Paper'\n\t'2' for 'Scissors'");
         int user_choice = sc.nextInt();
+        sc.close();
 
         System.out.println("Turn for Computer...");
         int comp_choice = random.nextInt(3);

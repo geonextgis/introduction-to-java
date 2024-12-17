@@ -12,8 +12,11 @@ public class Ex09_Is_Greater {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your number: ");
         float user_input = sc.nextFloat();
+        sc.close();
 
         boolean is_greater = user_input > given_number;
         System.out.println(is_greater);
+
+        
     }
 }

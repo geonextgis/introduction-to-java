@@ -18,6 +18,7 @@ public class Ex19_Get_Income_Tax {
 
         System.out.print("Enter your income slab: ");
         int user_income_slab = sc.nextInt();
+        sc.close();
 
         if (user_income_slab <= 2.5e5) {
             System.out.println("You don't have to pay any taxes.");

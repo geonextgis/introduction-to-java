@@ -11,6 +11,7 @@ public class Ex13_Replace_Spaces {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string:");
         String user_input = sc.nextLine();
+        sc.close();
 
         String modified_input = user_input.replace(' ', '_');
         System.out.println("The modified string: " + modified_input);

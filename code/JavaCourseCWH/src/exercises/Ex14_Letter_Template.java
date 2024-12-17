@@ -13,6 +13,7 @@ public class Ex14_Letter_Template {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name:");
         String user_name = sc.nextLine();
+        sc.close();
 
         System.out.format("Dear %s, Thanks a lot.", user_name);
     }

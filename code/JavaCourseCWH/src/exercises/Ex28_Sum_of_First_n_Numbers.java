@@ -12,6 +12,7 @@ public class Ex28_Sum_of_First_n_Numbers {
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
 
         int sum = 0;
         int count = 0;

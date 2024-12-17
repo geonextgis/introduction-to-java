@@ -22,6 +22,7 @@ public class Ex18_Pass_or_Fail {
 
         System.out.print("Enter your marks in Chemistry: ");
         float chemistry_score = sc.nextFloat();
+        sc.close();
 
         float total_percentage = ((math_score + physics_score + chemistry_score)/(max_score*3)) * 100;
 

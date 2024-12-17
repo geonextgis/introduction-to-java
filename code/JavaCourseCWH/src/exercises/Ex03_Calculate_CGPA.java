@@ -21,6 +21,7 @@ public class Ex03_Calculate_CGPA {
 
         System.out.println("Enter the marks of subject 3:");
         float marks_3 = sc.nextFloat();
+        sc.close();
 
         float sum = marks_1 + marks_2 + marks_3;
         float cgpa = (sum / total_marks) * 10;
