@@ -21,6 +21,7 @@ public class P005_Taking_Input {
         System.out.println("Enter a string:");
         String str = sc.next();
         // String str2 = sc.nextLine();
+        sc.close();
 
         System.out.println("The sum of these two number is:");
         System.out.println(sum);

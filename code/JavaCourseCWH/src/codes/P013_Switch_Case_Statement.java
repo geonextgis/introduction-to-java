@@ -14,6 +14,7 @@
         // Prompt the user to enter their age
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
+        sc.close();
 
         // if (age > 56) {
         //     System.out.println("You are experienced!");

@@ -41,7 +41,8 @@
           * `nextLine` reads the entire line entered by the user, including spaces.
           * The input string is stored in the variable `st`.
           */
-         String st = sc.nextLine(); 
+         String st = sc.nextLine();
+         sc.close();
          System.out.println(st); // Prints the input string
      }
  }

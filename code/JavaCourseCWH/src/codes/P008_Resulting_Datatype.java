@@ -14,9 +14,9 @@ public class P008_Resulting_Datatype {
          */
 
         byte x = 5;        // `byte` type
-        int y = 6;         // `int` type
-        short z = 8;       // `short` type
-        int a = y + z;     // Result is `int` because `short` is promoted to `int`
+        // int y = 6;         // `int` type
+        // short z = 8;       // `short` type
+        // int a = y + z;     // Result is `int` because `short` is promoted to `int`
         float b = 6.54f + x; // Result is `float` because `byte` is promoted to `float`
         System.out.println(b); // Output: 11.54
 
