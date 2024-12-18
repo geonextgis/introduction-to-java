@@ -15,7 +15,7 @@
           * - A 1-D array stores a list of elements in a single row.
           * - A 2-D array stores elements in rows and columns.
           */
-         int[] marks;      // A 1-D Array
+        //  int[] marks;      // A 1-D Array
          int[][] flats;    // A 2-D Array (Declaration)
  
          /*
